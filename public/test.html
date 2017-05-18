@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>	
+	<!-- <link rel="stylesheet" href="../src/less/note.css"> -->
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body,html{
+		width: 100%;
+		height: 100%;
+	}
+	body{
+		background: url('http://tupian.enterdesk.com/2012/0608/gha/7/4.jpg');
+		background-size: cover;
+	}
+	ul,li{
+		list-style: none;
+	}
+	.clearfix:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.tips{		
+		width: 100%;
+		min-height: 100%;
+	}
+	.wrap{
+		width: 980px;
+		margin: 0 auto;
+	}	
+	.header{
+		padding: 0 20px;
+		line-height: 30px;
+		color: #fff;
+		background: #333;		
+	}
+	.header a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.header .add-btn{
+		float: left;
+	}
+	.header .user-area{
+		float: right;
+	}
+	.header .user-area img{
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;	
+		display: block;
+		line-height: 30px;
+	}
+	.header .user-area li{
+		float: left;
+	}
+	.content{
+		position: relative;	
+		width: 100%;
+		min-height: 500px;
+		color: #fff;	
+	}
+	.content p {
+		color: #f60;
+	}
+
+
+</style>
+
+</head>
+<body>
+<div class="tips">
+	<div class="header clearfix">
+		<a href="#" class="add-note">
+			添加
+		</a>
+		<a href="auth/github" class="user">
+			Githunb登录
+		</a>	 
+		<a href="auth/logout" class="user">
+			注销
+		</a>	
+	</div>
+	<div class="content" id="content"> 	
+		<div class="note">
+			<div class="note-head">
+				<span class="delete">&times;</span>				
+			</div>
+			<div class="note-ct" contenteditable='true'>
+				这是测试文本...
+			</div>
+		</div>
+		<div class="note">
+			<div class="note-head">
+				<span class="delete">&times;</span>				
+			</div>
+			<div class="note-ct" contenteditable='true'>
+				这是测试文本...
+			</div>
+		</div>					
+	</div>	
+</div>
+	<script src="/js/index.js"></script>
+</body>
+</html>
