@@ -1,6 +1,6 @@
 # 这是什么
 - 这是一个nodeJS应用，使用express框架搭建的便签网站
-- [预览地址](http://note.webyi.top/)
+
 
 
 ### 使用了哪些技术？
